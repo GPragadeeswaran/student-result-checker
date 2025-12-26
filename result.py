@@ -1,6 +1,8 @@
 mark = int(input("Enter mark: "))
 
-if mark>=50:
+if mark>=85:
+    print("Distinction")
+elif mark>=50:
     print("Pass")
 else:   
     print("Fail")
